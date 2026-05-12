@@ -43,7 +43,7 @@ export function Navbar() {
           className="group inline-block"
         >
           <img
-            src="/logo.png"
+            src="./logo.png"
             alt="KEKC Logo"
             className="w-24 md:w-32 h-auto group-hover:-rotate-6 transition-transform duration-300 drop-shadow-lg"
           />

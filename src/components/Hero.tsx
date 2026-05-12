@@ -10,7 +10,7 @@ export function Hero() {
       {/* Background Image Container */}
       <div className="absolute inset-0 z-0 bg-stone-900">
         <img
-          src="/hero.png"
+          src="./hero.png"
           alt="Keks Cafe Interior"
           className="w-full h-full object-cover mix-blend-overlay opacity-60"
         />
@@ -28,7 +28,7 @@ export function Hero() {
         <FadeInView delay={0.2}>
           <div className="flex justify-center items-center mb-6 px-4">
             <img
-              src="/logo.png"
+              src="./logo.png"
               alt="KEKC Logo"
               className="w-64 md:w-96 lg:w-[400px] h-auto drop-shadow-[0_0_20px_rgba(236,72,153,0.5)] object-contain"
             />

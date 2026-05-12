@@ -14,7 +14,7 @@ export function Footer() {
           }}
         >
           <img
-            src="/logo.png"
+            src="./logo.png"
             alt="KEKC Logo"
             className="w-24 h-auto group-hover:-rotate-6 transition-transform duration-300 drop-shadow-sm"
           />
