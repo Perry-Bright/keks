@@ -6,7 +6,7 @@ export const translations = {
     about: "О нас",
     locations: "Локации",
     heroTitle: "Keks",
-    heroSubtitle: "Кафе-кондитерская. Твое третье место",
+    heroSubtitle: "Кафе-кондитерская. Твой дом вдали от дома",
     heroDescription:
       "Свежий гречишный хлеб, авторские завтраки и кофе класса спешелти в светлом интерьере с панорамными окнами.",
     discountBadge: "Премиальная кофейня-кондитерская",
@@ -39,7 +39,7 @@ export const translations = {
     branch2Address: "ул. Мытнинская, 19",
     branch2Hours: "Ежедневно с 09:00",
     contact: "Связь с нами",
-    footerDetails: "Keks Cafe © 2024. Все права защищены.",
+    footerDetails: "Keks Cafe © 2026. Все права защищены.",
     founderTitle: "О создательнице",
     founderQuote:
       "«Я всегда мечтала создать место, куда люди будут приходить не просто за кофе, а за атмосферой тепла, уюта и бесконечного вдохновения. KEKC — это воплощение моей любви к выпечке и искренним разговорам».",
@@ -52,7 +52,7 @@ export const translations = {
     about: "About",
     locations: "Locations",
     heroTitle: "Keks",
-    heroSubtitle: "Cafe-confectionery. Your Third Space",
+    heroSubtitle: "Cafe-confectionery. Your home away from home",
     heroDescription:
       "Fresh buckwheat bread, artisanal breakfasts, and specialty coffee in a light-filled interior with panoramic windows.",
     discountBadge: "Premium Cafe & Confectionery",
@@ -85,7 +85,7 @@ export const translations = {
     branch2Address: "Mytninskaya St., 19",
     branch2Hours: "Daily from 09:00",
     contact: "Contact Us",
-    footerDetails: "Keks Cafe © 2024. All rights reserved.",
+    footerDetails: "Keks Cafe © 2026. All rights reserved.",
     founderTitle: "Meet the Founder",
     founderQuote:
       "«I always dreamed of creating a space where people come not just for coffee, but for an atmosphere of warmth, coziness, and endless inspiration. KEKC is the embodiment of my love for baking and sincere conversations.»",

@@ -28,7 +28,7 @@ export function Features() {
       <div className="container mx-auto px-10 max-w-7xl">
         <FadeInView>
           <div className="max-w-2xl mx-auto text-center mb-10">
-            <h2 className="font-serif italic text-[30px] text-stone-900 mb-4 leading-tight">
+            <h2 className="font-serif italic text-[19px] text-stone-900 mb-4 leading-tight">
               {t("heroDescription")}
             </h2>
           </div>

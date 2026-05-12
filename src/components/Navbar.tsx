@@ -1,6 +1,7 @@
 import { Menu, X, Globe } from "lucide-react";
 import { useState, useEffect } from "react";
 import { useLanguage } from "../LanguageContext";
+import logo from "../assets/logo.png";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -43,7 +44,7 @@ export function Navbar() {
           className="group inline-block"
         >
           <img
-            src="./logo.png"
+            src={logo}
             alt="KEKC Logo"
             className="w-24 md:w-32 h-auto group-hover:-rotate-6 transition-transform duration-300 drop-shadow-lg"
           />
@@ -150,7 +151,13 @@ export function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-stone-50 border-t border-b border-stone-200 shadow-xl py-6 px-6 flex flex-col gap-6">
+        <div
+          className={`md:hidden absolute top-full left-0 right-0 backdrop-blur-xl border-t shadow-xl py-6 px-6 flex flex-col gap-6 ${
+            scrolled
+              ? "bg-white/70 border-white/30"
+              : "bg-black/60 border-white/10"
+          }`}
+        >
           {navLinks.map((link) => (
             <a
               key={link.name}
@@ -163,7 +170,11 @@ export function Navbar() {
                    element.scrollIntoView({ behavior: "smooth" });
                 }
               }}
-              className="inline-block text-stone-800 text-xs font-semibold uppercase tracking-widest transition-all duration-300 hover:translate-x-2 hover:text-botanical"
+              className={`inline-block text-xs font-semibold uppercase tracking-widest transition-all duration-300 hover:translate-x-2 ${
+                scrolled
+                  ? "text-stone-800 hover:text-botanical"
+                  : "text-white hover:text-botanical-light drop-shadow-md"
+              }`}
             >
               {link.name}
             </a>

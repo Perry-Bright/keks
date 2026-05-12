@@ -1,4 +1,5 @@
 import { useLanguage } from "../LanguageContext";
+import logo from "../assets/logo.png";
 
 export function Footer() {
   const { t } = useLanguage();
@@ -14,7 +15,7 @@ export function Footer() {
           }}
         >
           <img
-            src="./logo.png"
+            src={logo}
             alt="KEKC Logo"
             className="w-24 h-auto group-hover:-rotate-6 transition-transform duration-300 drop-shadow-sm"
           />

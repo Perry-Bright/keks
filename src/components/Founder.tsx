@@ -42,7 +42,7 @@ export function Founder() {
                 <span className="absolute -top-10 -left-6 text-8xl text-botanical/20 font-serif leading-none">
                   "
                 </span>
-                <p className="text-xl md:text-2xl text-stone-800 font-serif italic leading-relaxed relative z-10">
+                <p className="text-[19px] text-stone-800 font-serif italic leading-relaxed relative z-10">
                   {t("founderQuote")}
                 </p>
               </div>
